@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+html {
+    font-size: 62.5%;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-size: 1.6rem;
+}
+/*------------------------------------- HEADER -------------------------------------*/
+header {
+    background-color: #164688;
+    padding: 1%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+/*------------------------------------- MAIN -------------------------------------*/
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    -moz-box-shadow: 0px -0px 50px 1px #ffffff;
+    -webkit-box-shadow: 0px -0px 50px 1px #ffffff;
+    box-shadow: 0px -0px 50px 1px #ffffff;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div {
+    margin-bottom: 5%;
+    padding: 2%;
+    background-color: #ffffff;
+}
+
+.articles {
+    background-color: #578755;
+    border: 2px solid #ffffff;
+    border-radius: 1%;
+    color: #ffffff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.linkTitle {
+    color: #ffffff;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.category {
+    text-align: right;
+}
+/*------------------------------------- BUTTONS -------------------------------------*/
+.btn {
+    display: block;
+    margin: auto;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+      
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    cursor: pointer;
+}
+/*------------------------------------- ADMIN ARTICLES -------------------------------------*/
+.divAdmin {
+    margin: 2%;
+    border: 1px dashed #164688;
+}
+/*------------------------------------- COMMENTS -------------------------------------*/
+#betclic {
+    height: 20px;
+    width: 60px;
+}
+
+#tableHead {
+    background-color: #578755;
+    font-weight: normal;
+    text-align: center;
+}
+
+#tableHead a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#reminder {
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.fa-times {
+    color: red;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, tr, td {
+    border: 1px solid #164688;
+}
+
+td {
+    padding: 2%;
+}
+
+table tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+table tr:nth-child(odd) {
+	background-color: #FAFAFA;
+}
+
+table tr:first-child(even) {
+	background-color: inherit;
+}
+
+#deleteComment {
+    float: right;
+}
