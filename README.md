@@ -5,4 +5,4 @@ Une partie administrateur permet de régider de nouveaux articles, de modifier l
 
 ## Organisation
 
-Réalisé avec HTML, CSS, PHP et MySQL.
+Conception et développement d'un blog générique avec HTML, CSS, PHP et MySQL.
